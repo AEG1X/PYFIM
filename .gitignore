@@ -1,0 +1,17 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Snapshot output (local state, not source)
+snapshot.json
+
+# OS files
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
