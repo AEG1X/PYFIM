@@ -12,8 +12,8 @@ external dependencies — pure Python standard library.
 - Calculate the SHA-256 hash of a single file or every file in a directory
   (recursively)
 - Compare a computed hash against a known/expected reference hash
-- Save a snapshot of a directory's current state (`--save`)
-- Check a directory against its last saved snapshot (`--check`) and report:
+- Save a snapshot of a directory's current state (`--save`, `--s`)
+- Check a directory against its last saved snapshot (`--check`, `--c`) and report:
   - `UNCHANGED` — file content is identical to the snapshot
   - `MODIFIED` — file content has changed since the snapshot
   - `NEW` — file wasn't present in the snapshot
@@ -28,7 +28,7 @@ external dependencies — pure Python standard library.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/pyfim.git
+git clone https://github.com/aeg1x/pyfim.git
 cd pyfim
 ```
 
