@@ -28,7 +28,7 @@ external dependencies — pure Python standard library.
 ## Installation
 
 ```bash
-git clone https://github.com/aeg1x/pyfim.git
+git clone https://github.com/AEG1X/pyfim.git
 cd pyfim
 ```
 
